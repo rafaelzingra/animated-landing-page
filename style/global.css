@@ -24,7 +24,7 @@
     --text-sm: 500 .875rem/1.5 var(--ff-montserrat);
     --text-base: 1rem;
     --text-lg: 2.5rem;
-    --text-xl: 4rem;
+    --text-xl: 4rem; 
 }
 
 html,
@@ -42,4 +42,9 @@ h1 {
 
 h2 {
     font: 700 var(--text-lg)/1.2 var(--ff-syne);
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
 }
