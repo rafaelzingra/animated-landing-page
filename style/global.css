@@ -1,0 +1,45 @@
+*, 
+*::after, 
+*::before {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root {
+    --snitap-sun: #ffcd1e;
+    --snitap-sky-mid: #06b6d4;
+    --snitap-sky-light: #67e8f9;
+    --snitap-joy-mid: #db2777;
+    --snitap-joy-light: #f472b6;
+    --snitap-leaf-mid: #16a34a;
+
+    --text: #000000;
+    --highlights: #000000;
+    --bg: #fafafa;  
+
+    --ff-syne: "Syne", sans-serif;   
+    --ff-montserrat: "Montserrat",sans-serif;
+
+    --text-sm: 500 .875rem/1.5 var(--ff-montserrat);
+    --text-base: 1rem;
+    --text-lg: 2.5rem;
+    --text-xl: 4rem;
+}
+
+html,
+button {
+    font: 500 var(--text-base)/1.5 var(--ff-montserrat);
+}
+
+span {
+    font: var(--text-sm);
+}
+
+h1 {
+    font: 700 var(--text-xl)/1.25 var(--ff-syne);
+}
+
+h2 {
+    font: 700 var(--text-lg)/1.2 var(--ff-syne);
+}
