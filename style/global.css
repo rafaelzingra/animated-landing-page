@@ -32,10 +32,6 @@ button {
     font: 500 var(--text-base)/1.5 var(--ff-montserrat);
 }
 
-span {
-    font: var(--text-sm);
-}
-
 h1 {
     font: 700 var(--text-xl)/1.25 var(--ff-syne);
 }
